@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp ./prebuild/*.so /usr/lib/aarch64-linux-gnu/
+cp ./prebuild/*.so* /usr/lib/aarch64-linux-gnu/
 
 chmod +x ./prebuild/server
 

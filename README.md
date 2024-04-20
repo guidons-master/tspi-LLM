@@ -2,12 +2,13 @@
 
 ## 简介
 
-在 泰山派 上尝试使用 [llama.cpp](https://github.com/ggerganov/llama.cpp) 离线部署 [Qwen1.5-1.8b](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF) 大模型，基于 `OpenBLAS` + `CLBlast` 加速, 提供了编译好的二进制文件
+在 **`泰山派`** 上尝试使用 [llama.cpp](https://github.com/ggerganov/llama.cpp) 离线部署 [Qwen1.5-1.8b](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF) 大模型，基于 `OpenBLAS` + `CLBlast` 加速，[prebuild](./prebuild) 目录下提供了编译好的二进制文件
 
 ## 使用说明
 
-### 0. 系统
+### 0. 准备
 
+- 泰山派 2G + 16G 版本
 - `ubuntu20.04_hdmi_20231130_update.img`
 
 ### 1. 安装
